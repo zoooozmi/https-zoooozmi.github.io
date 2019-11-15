@@ -1,0 +1,143 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0 auto;
+    width: 1720px;
+}
+
+li{
+    list-style: none;
+}
+
+header{
+    height: 82px;
+    color: #525252;
+    font-family:Helvetica;
+    font-size: 12px;
+    margin: 22px 0 25px 0;
+}
+
+.header-left{
+    padding-left: 25px;
+    float:left
+}
+
+.header-left li{
+    padding: 32px;
+    float:left
+}
+
+.header-right{
+    padding: 0 77px;
+    float: right;
+    display: flex;
+}
+
+.header-right h3{
+    font-weight: bold;
+}
+
+.hajimeru-1{
+    background-color: #db3742;
+    color: #fff;
+    padding: 10px 15px;
+}
+
+.top-wrapper{
+    margin: 0 auto;
+    background-image: url(../img/9d08d356-59b9-4ac4-9f41-5b9c13c2b211.jpg);
+    height: 562px;
+    width: 1601px;
+}
+
+.container{
+    background-color: #fff;
+    float: right;
+    height: 480px;
+    width: 460px;
+    padding: 33px;
+    text-align: left;
+}
+
+.container h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.location{
+    width: 100%;
+    padding-top: 15px;
+}
+
+.cp_ipselect {
+	overflow: hidden;
+    margin: 9px;
+	text-align: center;
+}
+.cp_ipselect select {
+	width: 100%;
+	padding-right: 1em;
+	cursor: pointer;
+	text-indent: 0.01px;
+	text-overflow: ellipsis;
+	border: none;
+	outline: none;
+	background: transparent;
+	background-image: none;
+	box-shadow: none;
+	-webkit-appearance: none;
+	appearance: none;
+}
+.cp_ipselect select::-ms-expand {
+    display: none;
+}
+.cp_ipselect.cp_sl01 {
+    width: 65%;
+	position: relative;
+	border: 1px solid #bbbbbb;
+	border-radius: 2px;
+	background: #ffffff;
+}
+.cp_sl02{
+    width: 35%;
+}
+.cp_ipselect.cp_sl01::before {
+	position: absolute;
+	top: 0.8em;
+	right: 0.9em;
+	width: 0;
+	height: 0;
+	padding: 0;
+	content: '';
+	border-left: 6px solid transparent;
+	border-right: 6px solid transparent;
+	border-top: 6px solid #666666;
+	pointer-events: none;
+}
+.cp_ipselect.cp_sl01 select {
+	padding: 8px 38px 8px 8px;
+	color: #666666;
+}
+
+.hajimeru-2{
+    background-color: #ff5a5f;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.main{
+    margin: 0 324px;
+}
+
+.t-text{
+    float: left;
+    width: 50%;
+}
+
+.catch-text h1{
+    font-weight: bold;
+}
